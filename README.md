@@ -1,4 +1,4 @@
-# Starter Next.js
+# Next.js Starter
 
 > [Next.js](https://nextjs.org/) starter template using the [App Router](https://nextjs.org/docs/app) with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/)
 
@@ -7,13 +7,13 @@
 1. Clone the repository
 
 ```sh
-git clone https://github.com/ldgni/nextjs-starter.git
+git clone https://github.com/ldgni/next-starter.git
 ```
 
 2. Navigate inside the repository
 
 ```sh
-cd nextjs-starter
+cd next-starter
 ```
 
 3. Install dependencies
