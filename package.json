@@ -10,6 +10,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.62.15",
     "lucide-react": "^0.469.0",
     "next": "15.1.3",
     "react": "^19.0.0",
