@@ -3,7 +3,6 @@ import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import Providers from "@/app/providers";
 import Container from "@/components/container";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -21,17 +20,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <Providers>
-      <html lang="en">
-        <body
-          className={`${inter.className} bg-light text-sm text-dark antialiased sm:text-base dark:bg-dark dark:text-light`}>
-          <Container>
-            <Header />
-            <main className="grow">{children}</main>
-            <Footer />
-          </Container>
-        </body>
-      </html>
-    </Providers>
+    <html lang="en">
+      <body
+        className={`${inter.className} bg-light text-sm text-dark antialiased sm:text-base dark:bg-dark dark:text-light`}>
+        <Container>
+          <Header />
+          <main className="grow">{children}</main>
+          <Footer />
+        </Container>
+      </body>
+    </html>
   );
 }
