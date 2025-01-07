@@ -2,8 +2,8 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "lucide-react";
-import Image from "next/image";
 
+// import Image from "next/image";
 import { fetchRandomImage } from "@/api/fetch-random-image";
 import Button from "@/components/ui/button";
 
@@ -21,13 +21,10 @@ export default function Randomizer() {
         ) : error ? (
           <span>Error loading image</span>
         ) : (
-          <Image
+          <img
             src={data ?? ""}
             alt="Random image"
             className="rounded-sm border-2 border-dark dark:border-light"
-            width={200}
-            height={300}
-            priority
           />
         )}
       </div>
