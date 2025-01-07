@@ -3,7 +3,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "lucide-react";
 
-// import Image from "next/image";
 import { fetchRandomImage } from "@/api/fetch-random-image";
 import Button from "@/components/ui/button";
 
