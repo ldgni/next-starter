@@ -33,8 +33,8 @@ export default function Page() {
       <Image
         src="/images/placeholder-img.webp"
         alt="Placeholder image"
-        height={240}
         width={736}
+        height={240}
         className="h-60 w-full rounded-sm object-cover"
         priority
       />
