@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import placeholder from "../../public/images/placeholder.webp";
 
-export default function Page() {
+export default function HomePage() {
   return (
     <div className="flex flex-col gap-4">
       <p>
