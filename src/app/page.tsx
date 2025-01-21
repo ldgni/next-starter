@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+import placeholder from "../../public/images/placeholder.webp";
+
 export default function Page() {
   return (
-    <>
-      <p className="mb-4">
+    <div className="flex flex-col gap-4">
+      <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, minus
         ex. Odio vitae alias harum iste! Totam error atque ullam, adipisci eaque
         assumenda possimus ut porro, delectus soluta quia. Quo! Natus excepturi
@@ -12,13 +14,13 @@ export default function Page() {
         libero dignissimos, enim error, doloremque veniam cum dicta cumque
         molestiae!
       </p>
-      <p className="mb-4">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
         voluptatibus. Libero fugiat corrupti eligendi eum sint iusto rerum
         soluta vero officiis temporibus assumenda alias ut, nisi praesentium
         corporis maxime quo.
       </p>
-      <p className="mb-4">
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum
         facilis voluptate voluptatum aut dicta neque debitis perspiciatis sunt
         quidem iure quae soluta alias nulla est, pariatur illo cumque ex!
@@ -31,13 +33,11 @@ export default function Page() {
         repellendus veritatis. Officiis quia odio harum eligendi placeat fugiat?
       </p>
       <Image
-        src="/images/placeholder-img.webp"
+        src={placeholder}
         alt="Placeholder image"
-        width={736}
-        height={240}
-        className="h-60 w-full rounded-sm object-cover"
+        className="h-60 rounded-sm border border-zinc-400 object-cover"
         priority
       />
-    </>
+    </div>
   );
 }
