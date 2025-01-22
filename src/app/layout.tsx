@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${inter.className} bg-light text-sm text-dark antialiased sm:text-base dark:bg-dark dark:text-light`}>
         <Container>
           <Header />
-          <main className="grow">{children}</main>
+          <main>{children}</main>
           <Footer />
         </Container>
       </body>
