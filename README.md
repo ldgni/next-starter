@@ -1,6 +1,6 @@
 # Next.js Starter
 
-> [Next.js](https://nextjs.org/) starter template using the [App Router](https://nextjs.org/docs/app) with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/)
+> Next.js starter template using the App Router with TypeScript and Tailwind CSS
 
 ## Running Locally
 
